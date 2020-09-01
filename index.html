@@ -9,81 +9,55 @@
             background:grey;
             color:black;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            width: 200 px;
+            width: 1200 px;
             margin: 0 auto;
         }
+        .parent {
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 8px;
+grid-row-gap: 4px;
+height: 100wh;
+border: 1px solid black;
+}
+
+.div1 { grid-area: 1 / 1 / 3 / 3; }
+.div2 { grid-area: 3 / 1 / 4 / 2; }
+.div3 { grid-area: 3 / 2 / 4 / 3; }
+.div4 { grid-area: 4 / 1 / 5 / 3; }
+.div5 { grid-area: 1 / 3 / 2 / 5; }
+.div6 { grid-area: 2 / 3 / 4 / 5; }
+.div7 { grid-area: 4 / 3 / 5 / 4; }
+.div8 { grid-area: 4 / 4 / 5 / 5; }
+.div9 { grid-area: 1 / 5 / 3 / 7; }
+.div10 { grid-area: 3 / 5 / 5 / 6; }
+.div11 { grid-area: 3 / 6 / 4 / 7; }
+.div12 { grid-area: 4 / 6 / 5 / 7; }
+.div13 { grid-area: 1 / 7 / 2 / 8; }
+.div14 { grid-area: 2 / 7 / 3 / 8; }
+.div15 { grid-area: 1 / 8 / 3 / 9; }
+.div16 { grid-area: 3 / 7 / 5 / 9; }
     </style>
 </head>
 <body>
-    <div>
-        <h1>
-            Contemporary Art
-        </h1>
-        <p>
-            Contemporary Art is generally classified as artworks made during or after 1945, so from just after the Second World War right up to modern day.
-    
-        </p>
-        <p>
-            Contemporary Artworks You Need to See
-        </p>
-    </div>
-    <div>
-        <h2>
-            Andy Warhol
-        </h2>
-        <h3>
-            Campbell’s Soup Cans
-        </h3>
-        <img src="assets/2warhol.jpg" alt="">
-        <p>
-            This famous piece was one of Andy Warhol’s first ventures into using images from consumer culture and mass media in his work, a trend which would later come to define his distinctive style. Although the careful repetition of the piece echoes market mass production, Warhol didn’t start employing his famous silk screen printing technique until after completing this work, so each of these identical cans is actually hand-painted. It became a symbol of contemporary artworks.
-    
-        </p>
-        <p>
-            1962
-        </p>
-    </div>
-    <div>
-        <h2>
-            Keith Haring
-        </h2>
-        <h3>
-            Untitled
-        </h3>
-        <img src="assets/3.jpg" alt="">
-        <p>
-            This picture encapsulates Haring’s signature Pop Art style, with dynamic figures and a simplistic composition. From his humble beginnings as a graffiti artist on the New York subway, Haring launched his career with his instantly recognisable figures and motifs – of which a heart was one of the most common. He used his contemporary artworks to popularise important messages around safe sex and AIDS in an age when there was still significant stigma and taboo around these topics
-    
-        </p>
-        <p>
-            1982
-        </p>
-    </div>
-    <div>
-        <h2>
-            Banksy
-        </h2>
-        <h3>
-            Girl with Balloon
-        </h3>
-        <img src="assets/4Banksy.jpg" alt="">
-        <p>
-            This now iconic mural first appeared on Waterloo Bridge in London, although it has since been painted over. It has reappeared several times to support various political campaigns, notably the Syrian refugee crisis of 2014. In 2018 a framed copy of the work spontaneously shredded during an auction at Sotheby’s thanks to a device which Banksy himself had installed in the frame. He retitled the newly shredded piece Love is in the Bin.  The woman who had bought the print for a record price decided to go through with the sale.
-        </p>
-        <p>
-            2002
-        </p>
-    </div>
-    <div>
-        <h2>
-            Livertovskaya Yelyzaveta
-        </h2>
-        <p>
-            +380 63 136 88 47
-        </p>
-        <p>
-            elilivertovskaya@gmail.com
-        </p>
-    </div>
+    <div class="parent">
+        <div class="div1"> </div>
+        <div class="div2"> </div>
+        <div class="div3"> </div>
+        <div class="div4"> </div>
+        <div class="div5"> </div>
+        <div class="div6"> </div>
+        <div class="div7"> </div>
+        <div class="div8"> </div>
+        <div class="div9"> </div>
+        <div class="div10"> </div>
+        <div class="div11"> </div>
+        <div class="div12"> </div>
+        <div class="div13"> </div>
+        <div class="div14"> </div>
+        <div class="div15"> </div>
+        <div class="div16"> </div>
+        </div>
 </body>
 </html>
